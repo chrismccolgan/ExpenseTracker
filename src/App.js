@@ -1,6 +1,4 @@
 import Expenses from './components/Expenses';
-import Card from './components/Card';
-import './components/Expenses.css'
 
 function App() {
   const expenses = [
@@ -25,13 +23,7 @@ function App() {
     },
   ];
 
-  return (
-    <Card className='expenses'>
-      {expenses.map((expense) => (
-        <Expenses key={expense.id} item={expense} />
-      ))}
-    </Card>
-  );
+  return <Expenses data={expenses} />;
 }
 
 export default App;
