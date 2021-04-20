@@ -1,5 +1,5 @@
 # ExpenseTracker
 
-An Expense Tracking App
+ExpenseTracker is an expense tracking app made with React
 
-React Practice
+<img src="./public/ExpenseTracker.png" width=50% height=50%>
